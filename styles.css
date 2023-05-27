@@ -1,0 +1,21 @@
+* {
+    font-family: sans-serif;
+    color: rgb(104, 104, 104);
+}
+
+h1 {
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    color: black;
+}
+
+#recipelist {
+text-align: center;
+margin: auto;
+}
+
+
