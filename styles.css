@@ -1,21 +1,43 @@
 * {
-    font-family: sans-serif;
-    color: rgb(104, 104, 104);
+  font-family: sans-serif;
+  color: rgb(104, 104, 104);
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 h1,
 h2,
 h3 {
-    color: black;
+  color: black;
 }
 
-#recipelist {
-text-align: center;
-margin: auto;
+.center50 {
+  margin: auto;
+  width: 50%;
 }
 
+#recipe-list {
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0px;
+  border: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
+#recipe-list li {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: large;
+  display: block;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+ color: blue;
+ text-decoration: underline;
+}
